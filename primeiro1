@@ -1,0 +1,10 @@
+password = "12345"
+attempts = 0
+
+while True:
+    user_input = input("Digite a senha: ")
+    attempts += 1
+    if user_input == password:
+        break
+
+print(f"Senha correta! Foram feitas {attempts} tentativas.")
